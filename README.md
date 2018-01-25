@@ -1,3 +1,6 @@
+# Solr 5.5 compatibility
+Based on saaay71's work, I've ported lucene and solr methods this sources uses but doesn't exist in version 5.5. 
+
 # Vector Scoring Plugin for Solr : Dot Product and Cosine Similarity
 
 With this plugin you can query documents with vectors and score them based on dot product or cosine similarity.
@@ -5,7 +8,7 @@ This plugin is the same as [Vector Scoring Plugin for Elasticsearch](https://git
 
 ## Plugin installation
 
-The plugin was developed and tested on Solr `6.6.0`.
+The plugin was developed and tested on Solr <s>`6.6.0`</s> `5.5.5`.
 
 1. Copy VectorPlugin.jar to {solr.install.dir}/dist/plugins/
 2. Add the library to solrconfig.xml file:
